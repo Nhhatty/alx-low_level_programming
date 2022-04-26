@@ -1,12 +1,18 @@
-#include<stdio.h>
-int main()
-{
-	int number;
-	for(number=1;number<10;number++)	/*for loop to print 1-10 numbers*/
-	{
-		printf("%d",number);		/*to print the number*/
+#include <stdio.h>
 
-	}
-	printf("\n");				/*new line*/
-	return 0;
+/**
+ * main - prints all single digit numbers of base
+ * 10 starting from 0, followed by a new line
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int n;
+
+	for (n = 0; n < 10; n++)
+		printf("%d", n);
+	printf("\n");
+	return (0);
 }
+
+
